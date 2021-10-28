@@ -28,6 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Run Docker-compose
-docker-compose up
-docker-compose up -d
-docker-compose down
+`docker-compose up`,
+`docker-compose up -d`,
+`docker-compose down`
