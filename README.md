@@ -27,6 +27,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
+## Docker Login Github
+`docker login docker.pkg.github.com</a> -u USERNAME -p PASSWORD/TOKEN`
+
+## Docker Login Github
+#### Ex.
+`docker push docker.pkg.github.com/OWNER/REPOSITORY/IMAGE_NAME:VERSION`
+#### My Project
+`docker push docker.pkg.github.com/noyss/demopackage/angularapp`
+
 ## Run Docker-compose
 `docker-compose up`,
 `docker-compose up -d`,
