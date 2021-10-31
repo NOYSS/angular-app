@@ -1,7 +1,6 @@
 version: "3.3"
 services:
   front-end:
-    container_name: angular-docker-container
-    build: .
+    image: docker.pkg.github.com/noyss/demopackage/angularapp
     ports:
       - "9000:80"
