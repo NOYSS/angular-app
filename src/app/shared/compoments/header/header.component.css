@@ -1,0 +1,13 @@
+header {
+    padding: 15px;
+    background-color: #428bca;
+    color: aliceblue;
+  }
+
+  a {
+    color: aliceblue;
+  }
+
+  a:hover{
+    text-decoration: none;
+  }
