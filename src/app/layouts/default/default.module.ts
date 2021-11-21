@@ -9,7 +9,6 @@ import { PostsComponent } from 'src/app/modules/posts/posts.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 
-
 @NgModule({
   declarations: [
     DefaultComponent,

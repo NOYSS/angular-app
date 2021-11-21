@@ -6,7 +6,7 @@ RUN npm install
 
 ENV PATH="./node_modules/.bin:$PATH"
 COPY . ./
-RUN ng build --prod --output-path=dist
+RUN ng build --configuration=production --output-path=dist
 
 FROM nginx:1.19.10-alpine
 COPY --from=builder /myweb/dist /usr/share/nginx/html
